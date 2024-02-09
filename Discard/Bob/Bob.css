@@ -1,0 +1,117 @@
+ img {
+  max-width: 100%;
+  height: auto;
+}
+a{
+padding:2px;
+color:#d3d5db;
+}
+a:link {
+  text-decoration: none;
+color:#d3d5db;
+}
+a:hover {
+  text-decoration: underline;
+ color:#d3d5db;
+}
+h1{
+color:#eee;
+}
+h2{
+  margin-left: 30%;
+}
+body{
+background:#323339;
+color:#d3d5db;
+font-family: 'Kanit', sans-serif;
+ overflow-x: hidden;
+}
+
+
+.Boutton-Produits{
+  display:flexbox;
+  text-align:center;
+  background:#DB8504 ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+  margin-left:15vw;
+  padding: 40px 100px;
+}
+.Boutton-Produits:hover {
+  background-color:#BC7203;
+}
+.Contact{
+  background-color: #424450;
+}
+h1{
+  margin-left: 30%;
+}
+.IMG{
+  max-width: 38vw;
+  max-height:38vh;
+  margin-top:  6%;
+}
+img.rounded-corners {
+  border-radius: 3%;
+  border: 5px solid #454545;
+  background-color: #222128;
+}
+.Texte-Bouton{
+  margin-left: 43%;
+  margin-right: 5%;
+  margin-top:  -13%;
+  font-size: 25px;
+  max-width: 50vw;
+  max-height: 30vh;
+}
+.Texte-Bouton li{
+  margin-left: 28%;
+}
+.topbar{
+  font-size:150%;
+  height : auto;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background:#323339 ;
+}
+ul {
+  list-style-type: none;
+  margin-left: 13%;
+  margin-top: -2.5%;
+  padding: 0;
+}
+.topbar{
+  margin-top: -3%;
+}
+.topbar li {
+  display: inline;
+  margin-left:0;
+}
+.Boutton-Retour{
+  text-align:center;
+  background:#151515;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+  padding: 20px 50px;
+  margin-left: 85%;
+  margin-top:-5%;
+}
+.Boutton-Retour:hover {
+  background-color:#000;
+}
+.Logo{
+  max-width:12vw ;
+  max-height: 12vh;
+}
+.Made img{
+    max-width:3vw ;
+    max-height: 3vh;
+    margin-left: 2%;
+}

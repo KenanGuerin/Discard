@@ -1,0 +1,165 @@
+
+.topbar{
+  font-size:150%;
+  height : auto;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background:#323339 ;
+}
+.topbar{
+  margin-top: -4%;
+}
+.topbar ul {
+  list-style-type: none;
+  margin-left: 13%;
+  margin-top: -5%;
+  padding: 0; 
+}
+img {
+  max-width: 100%;
+  height: auto;;
+}
+.topbar li {
+  display: inline;
+  margin-left:0;
+}
+.title{
+text-align:center;
+padding: 5%;
+font-weight: 700;
+font-size:500%;
+}
+h1{
+color:#eee;
+}
+body{
+background:#323339;
+color:#d3d5db;
+font-family: 'Kanit', sans-serif;
+ overflow-x: hidden;
+font-size: 25px;
+}
+.row {
+ width : 100%; height : 90%;
+ display: flex;
+}
+.Boutton-Produits{
+  display:flexbox;
+  text-align:center;
+  background:#DB8504 ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+  margin-left:42vw;
+  padding: 40px 100px;
+  color:#222;
+}
+.Boutton-Produits:hover {
+  background-color:#BC7203;
+}
+a{
+padding:2px;
+color:#d3d5db;
+font-size: 25px;
+}
+a:link {
+  text-decoration: none;
+  color:#d3d5db;
+}
+a:hover {
+  text-decoration: underline;
+  color:#d3d5db;
+}
+.column {
+flex: 33.33%;
+padding: 10px;
+}
+.column:hover{
+transform:scale(1.04);
+}
+img.rounded-corners {
+  border-radius: 3%;
+  border: 5px solid #454545;
+  background-color: #222128;
+}
+.footer{
+ background:  #222128;
+ padding: 1%;
+ padding-bottom: 1%;
+ color:#6B697F;
+ font-size: 25px;
+ margin-bottom: -1%;
+}
+.Valeurs{
+  background-color: #424450;
+  font-size: 25px;
+}
+.Logo{
+  max-width:12vw ;
+  max-height: 12vh;
+}
+.footer li{
+  display: inline;;
+}
+.footer ul {
+  list-style-type: none;
+  margin-left: 42%;
+  padding: 3px; 
+  color:#6B697F;
+  font-size: 25px;
+}
+.footer a{
+padding:2px;
+color:#6B697F;
+font-size: 25px;
+}
+
+.footer a:link {
+  text-decoration: none;
+  color:#6B697F;
+}
+.footer a:hover {
+  text-decoration: underline;
+  color:#6B697F;
+}
+input[type=text], select, textarea {
+  background-color: #424450;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  color:#d3d5db;
+  font-size: 15px;
+  resize: vertical */
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #323339;
+  padding: 20px;
+} 
+.Boutton-Contact{
+  display:flexbox;
+  text-align:center;
+  background:#DB8504 ;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+  border-radius: 7px;
+  transition-duration: 0.4s;
+  margin-left:42vw;
+  padding: 40px 100px;
+  color:#222;
+}
+.Boutton-Contact:hover {
+  background-color:#BC7203;
+}
+.ERROR{
+color:#BF0000;
+}
